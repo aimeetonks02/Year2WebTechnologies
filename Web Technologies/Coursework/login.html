@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Tech Coursework</title>
+        <link rel ="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a href="homepage.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">CV</button>
+                <div class="dropdown-content">
+                    <a href="CV.html#modules">Modules</a>
+                    <a href="CV.html#summer">Summer Comp Sci Work</a>
+                    <a href="CV.htlm#work">Work Experience</a>
+                    <a href="CV.html#education">Education</a>
+                    <a href="CV.html#interests">Interests</a>
+                </div>
+            </div>
+            <a href="weather.html">Weather Data</a>
+            <a href="processing.html">Publication</a>
+            <a style="float:right" href="#">Login</a>
+        </div>
+
+        <div id="title">
+            <h1>Administrator Login</h1>
+        </div>
+        <form method="post" action="login.txt">
+            <div id="inputs">
+                <div>
+                    <label for="idInput">Username</label>
+                    <input class="form-control" name="id" id="idInput" autofocus placeholder="Enter username here">
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input class="form-control" name="password" id="password" autofocus placeholder="Enter password here">
+                </div>
+                    <button id="yesno" type="submit">Submit</button>
+                    <button id="yesno" type="reset">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>
